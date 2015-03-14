@@ -1,0 +1,48 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+p {
+	font-size: 18px;
+}
+
+.lk-button {
+	display: block;
+    float: left;
+	height: 80px;
+	width: 200px;
+	border: 1px solid;
+    border-radius: 25px;
+	cursor: pointer;
+}
+
+.button-bunch {
+    margin-top: 162px;
+}
+
+.readss {
+	background-color: #ffc0cb;
+}
+
+.done-picking {
+    /* line-height: 70px; */
+    margin-left: 490px;
+    background-color: #33ccff;
+}
+
+.button-text {
+    font-size: 26px;
+    line-height: 27px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.readss .button-text {
+    margin-top: 10px;
+    width: 64%;
+}
+
+.done-picking .button-text {
+    width: 28%;
+}
