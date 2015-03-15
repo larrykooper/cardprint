@@ -12,7 +12,4 @@ class SpreadsheetsController < ApplicationController
         end
 	end
 
-	def get_data
-	end
-
 end
