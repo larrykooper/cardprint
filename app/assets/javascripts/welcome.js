@@ -2,10 +2,8 @@
 // All this logic will automatically be available in application.js.
 
 var authorizeSuccess = function(data, status) {
-    // this is the callback func
-    alert('success');
 	console.log('authorization was successful');
-
+    $('.data').html(data);
 }
 
 var authorizeError = function(jqXHR, status, error) {
