@@ -33,17 +33,15 @@ module SpreadsheetReader
         # Creates a session.
         @@session = GoogleDrive.login_with_oauth(access_token)
         SpreadsheetReader.get_spreadsheet_data
-
     end
 
     def SpreadsheetReader.get_spreadsheet_data
-
         # worksheets[0] is first worksheet
         ws = @@session.spreadsheet_by_key(ENV['SPREADSHEET_KEY']).worksheets[0]
 
-        # Get the spreadsheet data by rows
-        p ws.rows  #==> [["fuga", "baz"], ["foo", "bar"]]
-
+        # Return the spreadsheet data by rows
+        # As: [["fuga", "baz"], ["foo", "bar"]]
+        ws.rows
     end
 
 end
