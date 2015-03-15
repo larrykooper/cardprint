@@ -2,9 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+#acolumn {
+    width: 487px;
+    float: left;
+}
 
 p {
 	font-size: 18px;
+}
+
+.button-bunch {
+    float: left;
+    margin-top: 70px;
 }
 
 .lk-button {
@@ -17,17 +26,12 @@ p {
 	cursor: pointer;
 }
 
-.button-bunch {
-    margin-top: 162px;
-}
-
 .readss {
 	background-color: #ffc0cb;
 }
 
 .done-picking {
-    /* line-height: 70px; */
-    margin-left: 490px;
+    margin-left: 200px;
     background-color: #33ccff;
 }
 
