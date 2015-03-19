@@ -26,7 +26,7 @@ module SpreadsheetReader
         auth.scope =
             "https://www.googleapis.com/auth/drive " +
             "https://spreadsheets.google.com/feeds/"
-        auth.redirect_uri = "http://localhost"
+        auth.redirect_uri = "http://localhost:9292"
 
         # ********* HERE *********************
 

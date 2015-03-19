@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   get 'spreadsheet/authorize' => 'spreadsheets#authorize'
   post 'printcards' => 'cardgenerators#generate_cards'
+  get 'oauth2callback/:code' => 'cont#action'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
